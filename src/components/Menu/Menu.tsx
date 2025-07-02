@@ -5,10 +5,10 @@ import { useLocation } from "react-router-dom";
 import MenuOption from "./MenuOption";
 
 const MENU_OPTIONS = [
-  { name: "ABOUT", path: "/" },
-  { name: "BRAND", path: "/brand" },
-  { name: "MEMBERS", path: "/members" },
-  { name: "WORK", path: "/work" },
+  { name: "ABOUT", path: "/lesserafim/" },
+  { name: "BRAND", path: "/lesserafim/brand" },
+  { name: "MEMBERS", path: "/lesserafim/members" },
+  { name: "WORK", path: "/lesserafim/work" },
 ];
 
 export default function Menu() {

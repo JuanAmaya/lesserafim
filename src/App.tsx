@@ -9,11 +9,11 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Layout />}>
+        <Route path="/lesserafim/" element={<Layout />}>
           <Route index element={<IntroPage />} />
-          <Route path="brand" element={<Brand />} />
-          <Route path="members" element={<Members />} />
-          <Route path="work" element={<Work />} />
+          <Route path="/lesserafim/brand" element={<Brand />} />
+          <Route path="/lesserafim/members" element={<Members />} />
+          <Route path="/lesserafim/work" element={<Work />} />
         </Route>
       </Routes>
     </BrowserRouter>

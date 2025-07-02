@@ -13,9 +13,9 @@ export default function MenuOption({ name, path, location }: optionType) {
     <motion.li
       variants={titleVar}
       className={`${
-        location === "/" + name.toLocaleLowerCase()
+        location === "/lesserafim/" + name.toLocaleLowerCase()
           ? "pointer-events-none text-zinc-300"
-          : location === "/" && name === "ABOUT"
+          : location === "/lesserafim/" && name === "ABOUT"
           ? "pointer-events-none text-zinc-300"
           : "menuOption text-black"
       } font-clash-bold text-7xl pl-8 lg:text-8xl`}
